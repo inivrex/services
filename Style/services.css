@@ -50,9 +50,10 @@
     margin: 1rem;
     text-decoration: none;
     transition: 0.3s;
+    box-shadow: -10px 10px 10px 0 rgba(0, 0, 0, 0.106);
 }
 
-.servCards:hover{
+.servCards:hover {
     background-color: rgba(0, 255, 47, 0.229);
 }
 
