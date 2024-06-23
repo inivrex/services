@@ -54,7 +54,8 @@
 }
 
 .servCards:hover {
-    background-color: rgba(0, 255, 47, 0.229);
+    background-color: rgba(255, 255, 255, 0.229);
+    transform: scale(1.1);
 }
 
 .servCards>div {
