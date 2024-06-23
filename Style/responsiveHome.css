@@ -38,6 +38,11 @@
         padding: 0.5rem;
     }
 
+    #FloatingWALink {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
     /* Finish */
 
 }
