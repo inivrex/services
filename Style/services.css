@@ -1,0 +1,86 @@
+/* Global Variales Here  */
+:root {
+    --uniFontColor: rgb(0, 0, 0);
+    --navLinkFontClr: rgb(0, 0, 0);
+    --navLinkHoverBG: rgb(212, 212, 212);
+    --contentCardsBG: #ab4cff;
+    --wlcmBoxShado: rgba(90, 29, 116, 0.21);
+    --miniHeadingFSize: 1.5rem;
+    --navLinkFontSze: 1rem;
+    --wlcmttxtfontsize: 1.7rem;
+    --socialCrdWid: 4rem;
+    --queInWid: 25rem;
+    --buyStpImgWid: 12rem;
+    --ImpThngImgWid: 10rem;
+    --WIInivrexImgWid: 8rem;
+    --ofrClckImgWid: 2rem;
+    --navBrnTxtImgWid: 8rem;
+    --byStpContFntSize: 5rem;
+    --navBrnblbImgWid: 3rem;
+    --PrimaryBG: Whitesmoke;
+    --SecondaryBG: white;
+    --TertiaryBG: #c3c3c398;
+    --QuadBG: #dbdbdb;
+}
+
+#servcetxt {
+    margin-top: 2rem;
+}
+
+#prntServiceCards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+
+.servCards {
+    width: auto;
+    height: auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--SecondaryBG);
+    margin: 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.servCards:hover{
+    background-color: rgba(0, 255, 47, 0.229);
+}
+
+.servCards>div {
+    width: 10rem;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.servCards>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+.servCards>p {
+    font: caption;
+    font-size: var(--navLinkFontSze);
+    color: var(--uniFontColor);
+    font-weight: 600;
+    margin-top: 0.6rem;
+    max-width: 10rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 40%;
+    bottom: 0rem;
+    position: relative;
+}
