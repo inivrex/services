@@ -47,7 +47,7 @@ window.addEventListener('scroll', function () {
     var navbar = document.querySelector('nav');
     var navbarHeight = navbar.offsetHeight;
 
-    if (window.pageYOffset >= navbarHeight + 200) {
+    if (window.pageYOffset >= navbarHeight + 100) {
         navbar.classList.add('fixed');
         MoreNavWin.style.position = 'fixed';
         MoreNavWin.style.zIndex = '120';
