@@ -6,7 +6,7 @@ const planDetail = document.querySelector('#planDetail');
 let selectedPlan = null;
 let currentFieldIndex = 0;
 
-fields[currentFieldIndex].focus();
+// fields[currentFieldIndex].focus();
 
 // Object to store form data
 let formData = {
@@ -225,7 +225,7 @@ function showFormData() {
                 Phone: ${formData.Phone},\n
                 WhatsApp Number: ${formData['WhatsApp Number']}\n
                 Plan: ${formData.Plan}\n
-                Reason: ${formData.Reason},\n
+                Reason: ${formData.Reason}\n
             `;
             navigator.clipboard.writeText(detailsText)
                 .then(() => showDialogue('Form details copied to clipboard!'))
@@ -237,14 +237,14 @@ function showFormData() {
         openWhatsAppBtn.addEventListener('click', () => {
             const phoneNumber = '8193070049';
             const message = `
-                Hi! I'm interested in your services. Here are my details:,\n
-                Name: ${formData.Name},\n
-                Email: ${formData.Email},\n
-                Date of Birth: ${formData['Date of Birth']},\n
-                Phone: ${formData.Phone},\n
-                WhatsApp Number: ${formData['WhatsApp Number']},\n
-                Plan: ${formData.Plan}\n
-                Reason: ${formData.Reason},\n
+                Hi! I'm interested in your services. Here are my details:
+                Name: ${formData.Name},
+                Email: ${formData.Email},
+                Date of Birth: ${formData['Date of Birth']},
+                Phone: ${formData.Phone},
+                WhatsApp Number: ${formData['WhatsApp Number']},
+                Plan: ${formData.Plan}
+                Reason: ${formData.Reason}
             `;
             const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             window.open(whatsappLink, '_blank');
@@ -255,7 +255,7 @@ function showFormData() {
 // Code to make selection on plans 
 document.addEventListener('DOMContentLoaded', function () {
     const planButtons = document.querySelectorAll('.planBtn');
-    const checkBoxPlns = document.querySelectorAll('.CheckBoxPlns');
+    const insideChcBox = document.querySelectorAll('.insideChcBox');
 
     planButtons.forEach(button => {
         button.addEventListener('click', function (e) {
@@ -263,19 +263,18 @@ document.addEventListener('DOMContentLoaded', function () {
             e.preventDefault();
 
             // Remove green background from all checkboxes
-            checkBoxPlns.forEach(checkBox => {
+            insideChcBox.forEach(checkBox => {
                 checkBox.style.backgroundColor = '';
             });
 
             // Find the selected plan's container
             const selectedDiv = this.parentElement;
-            const checkBox = selectedDiv.querySelector('.CheckBoxPlns');
+            const checkBox = selectedDiv.querySelector('.insideChcBox');
 
             // Ensure the checkbox is found before attempting to set its style
             if (checkBox) {
                 // Set green background color to the selected plan's checkbox
-                checkBox.style.backgroundColor = '#ff00f4';
-
+                checkBox.style.backgroundColor = 'rgb(0, 255, 26)';
                 // Store the selected plan's header
                 const header = selectedDiv.querySelector('h3');
                 if (header) {
