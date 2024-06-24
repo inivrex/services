@@ -1,0 +1,36 @@
+
+/* Footer of the web page  */
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: caption;
+    font-size: var(--navLinkFontSze);
+    color: white;
+    background-color: black;
+    padding: 0.4rem 0.4rem;
+    flex-direction: column;
+}
+
+#FootLinks {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+    margin-top: 0;
+}
+
+.FootLinks {
+    color: var(--UniWhiteColor);
+    font: caption;
+    font-size: var(--navLinkFontSze);
+    text-decoration: none;
+    margin: 0.3rem 0.6rem;
+
+}
