@@ -38,7 +38,7 @@
     margin-bottom: 10rem;
 }
 
-.servCards {
+#prntServiceCards>a {
     width: auto;
     height: auto;
     padding: 1.5rem;
@@ -53,7 +53,7 @@
     box-shadow: -10px 10px 10px 0 rgba(0, 0, 0, 0.106);
 }
 
-.servCards:hover {
+#prntServiceCards>a:hover {
     background-color: rgba(255, 255, 255, 0.229);
     transform: scale(1.1);
 }
@@ -85,4 +85,48 @@ footer {
     margin-top: 40%;
     bottom: 0rem;
     position: relative;
+}
+
+
+/* Accept Windows  */
+#Acceptterm {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 30;
+    top: 0rem;
+}
+
+#TermWin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 42rem;
+    padding: 1rem;
+    box-shadow: -10px 10px 10px 0px rgba(255, 255, 255, 0.142);
+}
+
+#TermWin>div {
+    display: flex;
+    justify-content: center;
+}
+.agreementBtns{
+    font: caption;
+    font-size: var(--navLinkFontSze);
+    color: rgb(255, 255, 255);
+    background-color: #aa00ff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.4rem 0.6rem;
+    outline: none;
+    margin: 0rem 0.5rem;
+    cursor: pointer;
+    border: none;
 }
