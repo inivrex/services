@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzbvdl-cqZFs_O5BtBJpLRX2CFvmi_-cq41tzwxxotHnyNjm_d4QhIfYfhqJuIcMqB2nQ/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzscoOYfY-eJOZB9Bp3TAszWgCwHhvzPF99n3Ip-EUc0SjEiZkeOBg71uEa2kpNzMyeVg/exec';
 const form = document.forms['google-sheet'];
 const fields = form.querySelectorAll('.required-field');
 const recaptcha = document.querySelector('.g-recaptcha');
