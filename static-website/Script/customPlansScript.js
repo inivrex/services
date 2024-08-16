@@ -210,8 +210,8 @@ function showFormData() {
 
         // Add buttons for copy to clipboard and open WhatsApp
         displayElement.innerHTML += `<div>
-                        <button style="display: flex; justify-content: center; align-items: center;" class="AfterSubBtn" id="copyToClipboardBtn"><img src="https://inivrex.in/Files/copy.png" style="width: 20px; margin-right: 5px;" alt="">Copy</button>
-                        <button style="display: flex; justify-content: center; align-items: center;" class="AfterSubBtn" id="openWhatsAppBtn"><img src="https://inivrex.in/Files/WaIcon.png" style="width: 25px; margin-right: 5px;" alt=""> WhatsApp</button>
+                        <button style="display: flex; justify-content: center; align-items: center;" class="AfterSubBtn" id="copyToClipboardBtn"><img src="https://www.inivrex.in/Files/copy.png" style="width: 20px; margin-right: 5px;" alt="">Copy</button>
+                        <button style="display: flex; justify-content: center; align-items: center;" class="AfterSubBtn" id="openWhatsAppBtn"><img src="https://www.inivrex.in/Files/WaIcon.png" style="width: 25px; margin-right: 5px;" alt=""> WhatsApp</button>
                     </div>
         `;
 
