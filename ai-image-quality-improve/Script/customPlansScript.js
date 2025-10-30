@@ -235,7 +235,7 @@ function showFormData() {
         // Event listener for open WhatsApp button
         const openWhatsAppBtn = document.getElementById('openWhatsAppBtn');
         openWhatsAppBtn.addEventListener('click', () => {
-            const phoneNumber = '8193070049';
+            const phoneNumber = '0';
             const message = `
                 Hi! I'm interested in your services. Here are my details:
                 Name: ${formData.Name},

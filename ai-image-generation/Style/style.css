@@ -430,7 +430,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://www.inivrex.in/Files/clock.png);
+    background: url(https://inivrex.github.io/Files/clock.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -807,7 +807,7 @@ section {
     width: var(--buyStpImgWid);
     border-radius: 100%;
     height: var(--buyStpImgWid);
-    background: url(.https://www.inivrex.in/Files/customPlnImg.jpeg);
+    background: url(.https://inivrex.github.io/Files/customPlnImg.jpeg);
     background-position: center;
     background-size: cover;
     margin-left: 1rem;
